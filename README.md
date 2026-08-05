@@ -42,5 +42,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Presidio Medical is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
+Presidio Medical is a privately held, clinical-stage medical device company in South San Francisco, California, founded in 2017 and developing an implantable Ultra Low Frequency (ULF) neuromodulation platform for chronic nociceptive low back pain. It sells an implantable device, not software, and publishes no public API, developer portal, SDK or machine-readable API contract. As of 2026-08-05 its corporate site at presidiomedical.com is offline, returning a WP Engine "Site Not Configured" HTTP 404 on every path.
+
+- https://presidiomedical.com/
+- https://www.linkedin.com/company/presidio-medical-inc
 - https://forgeglobal.com/presidio-medical_stock/

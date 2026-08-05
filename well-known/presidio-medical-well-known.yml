@@ -1,0 +1,46 @@
+generated: '2026-08-05'
+method: probed
+source: live GET probes of https://presidiomedical.com/.well-known/*
+host: https://presidiomedical.com
+summary: >-
+  No /.well-known/ discovery documents are published. Every probed path returned
+  HTTP 404 — but so did the site root and a deliberately nonexistent control path,
+  because the origin (WP Engine) is serving a "Site Not Configured | 404 Not Found"
+  page for the entire domain as of 2026-08-05. The absence recorded here is
+  therefore a property of the whole host being offline, not of the /.well-known/
+  namespace specifically. No security.txt, OIDC/OAuth discovery document, API
+  catalog, AI plugin manifest or A2A agent card could be retrieved. No document was
+  saved because no path returned 200, and no WellKnown / SecurityTxt / AgentCard
+  pointer is wired in apis.yml.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+control:
+- path: /
+  status: 404
+  note: site root also 404s — origin is unconfigured
+- path: /nonexistent-control-path-xyz
+  status: 404
+  note: control path, identical body to root (6828 bytes)
+x-evidence:
+  fetched: '2026-08-05'
+  host: presidiomedical.com
+  body_title: Site Not Configured | 404 Not Found
+  origin: WP Engine (141.193.213.10)
+  note: >-
+    Responses are a 6,828-byte HTML holding page from WP Engine, not JSON. The
+    domain registration is active (GoDaddy, expires 2027-03-09) and DNS, MX and SPF
+    records still resolve, so the domain is live while the web property is not. The
+    Internet Archive's last successful 200 capture of the homepage is 2026-06-07.
