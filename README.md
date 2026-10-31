@@ -64,8 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Presidio Medical is a privately held, clinical-stage medical device company in South San Francisco, California, founded in 2017 and developing an implantable Ultra Low Frequency (ULF) neuromodulation platform for chronic nociceptive low back pain. It sells an implantable device, not software, and publishes no public API, developer portal, SDK or machine-readable API contract. As of 2026-08-05 its corporate site at presidiomedical.com is offline, returning a WP Engine "Site Not Configured" HTTP 404 on every path.
+Presidio Medical is a privately held, clinical-stage medical device company headquartered in South San Francisco, California, founded in 2017 by Kenneth Wu and led by CEO and Chairman Michael Onuscheck. It is developing an implantable Ultra Low Frequency (ULF) neuromodulation platform intended to treat diseases of undesired neural activity, with a first indication in chronic nociceptive low back pain. The therapy delivers ultra low frequency current through an epidural spinal cord stimulation (SCS) lead to reversibly inhibit pain-signaling neurons via sodium channel inactivation, positioned as a non-opioid alternative to conventional SCS. The company raised a $72M Series C in 2023 led by Deerfield Management with Invus Opportunities, Action Potential Venture Capital and ShangBay Capital, and received FDA IDE approval for the global pivotal FULFILL randomized controlled trial in the United States and Australia. Presidio Medical sells an implantable medical device, not software; it has never operated a developer program, public API, SDK or machine-readable API contract. As of 2026-08-05 its corporate WordPress site at presidiomedical.com is offline, returning a WP Engine "Site Not Configured" HTTP 404 on every path including the root.
 
-- https://presidiomedical.com/
-- https://www.linkedin.com/company/presidio-medical-inc
-- https://forgeglobal.com/presidio-medical_stock/
+**Areas:** Company · Medical Devices · Neuromodulation · Neurotechnology · Spinal Cord Stimulation · Chronic Pain · Implantable Devices · Clinical Stage · Healthcare · Life Sciences
+
+## Presidio Medical on APIs.io
+
+Everything profiled for Presidio Medical is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/presidio-medical/](https://apis.io/providers/presidio-medical/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Presidio Medical Domain Security](https://apis.io/security/presidio-medical/presidio-medical-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://presidiomedical.com/)
+
+## API Evangelist rating
+
+**Kin Score 3.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 44.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/presidio-medical/](https://apis.io/providers/presidio-medical/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Presidio Medical: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/presidio-medical/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
